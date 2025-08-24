@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  opacity: 0;
+  transition: opacity 0.8s ease-in;
+}
+
+body.fade-in {
+  opacity: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar .logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #222;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar nav a.active,
+.navbar nav a:hover {
+  border-bottom: 2px solid #1e6bfd;
+  color: #1e6bfd;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 10%;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-text h1 span {
+  color: #1e6bfd;
+}
+
+.hero-text h2 {
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.hero-text .btn {
+  padding: 10px 20px;
+  background-color: #1e6bfd;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.hero-text .btn:hover {
+  background-color: #174fc2;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  margin-right: 15px;
+  color: #1e6bfd;
+  font-size: 1.5rem;
+}
+
+.hero-img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skill-tags {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-tags li {
+  background-color: #1e6bfd;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 15px 10%;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+
+/* Background and content container styling */
+body {
+  background-color: #f9fbff;
+}
+
+section.content {
+  background-color: #ffffff;
+  padding: 40px 10%;
+  margin: 40px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 8px;
+  max-width: 1000px;
+}
+
+/* Page titles */
+h1 {
+  color: #1e6bfd;
+  font-size: 2rem;
+  border-bottom: 2px solid #1e6bfd;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+/* Footer update for color */
+.footer {
+  background-color: #1e6bfd;
+  color: white;
+  padding: 15px 10%;
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+}
+
+/* Button consistency */
+.btn {
+  padding: 10px 20px;
+  background-color: #1e6bfd;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #174fc2;
+}
+
+/* Project and course styling */
+.project, .course {
+  margin-bottom: 40px;
+}
+
+.project img, .course img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.project h2, .course h2 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.project p, .course p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+ul.course-list li {
+  margin-bottom: 12px;
+}
